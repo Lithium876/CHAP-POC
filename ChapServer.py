@@ -2,7 +2,7 @@ import os, socket, hashlib, pickle
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import AES
  
-passwordHash= "31435008693ce6976f45dedc5532e2c1"
+passwordHash= #create a MD5 hashed version of any password you wisH. Use the hashit function for this#
 Challenge = os.urandom(32)  
 counter = os.urandom(16)    
 
